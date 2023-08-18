@@ -37,9 +37,9 @@ h3 {
   position: relative;
   padding-top: 100px;
   margin-bottom: 48px;
-}
+} /*
 .middle-container {
-}
+}*/
 .profileimg {
   width: 12%;
 }
@@ -87,7 +87,36 @@ hr {
   top: 50px;
   right: 300px;
 }
+/*usiamo le media query per arrivare ad un design responsive*/
+/*telefoni*/
+@media (max-width: 480px) {
+  .TopContainer {
+    background-color: #0b5b5b;
+  }
+  .mountain {
+    width: 100%;
+  }
+  .top-cloud {
+    right: 10px;
+  }
+  .bottom-cloud {
+    left: 10px;
+    bottom: 180px;
+    width: 32%;
+  }
+}
 
+/*tablet*/
+@media (min-width: 481px) and (max-width: 1200px) {
+}
+
+/*laptop*/
+@media (min-width: 1201px) and (max-width: 1600px) {
+}
+
+/*desktop*/
+@media (min-width: 1601px) {
+}
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #2980b9);
