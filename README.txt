@@ -31,6 +31,7 @@ http://imakewebthings.com/waypoints/
 jQuery countTo
 https://github.com/mhuggins/jquery-countTo
 
-Demo Images:
+Images:
 http://unsplash.com
-
+&
+https://www.shopify.com/stock-photos
